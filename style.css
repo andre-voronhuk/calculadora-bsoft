@@ -87,6 +87,7 @@ p {
 }
 
 .key:hover {
+    cursor: pointer;
     background-color: #333;
 }
 

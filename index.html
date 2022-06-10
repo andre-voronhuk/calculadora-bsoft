@@ -21,71 +21,72 @@
                 <div class="valores">
                     <div class="numeros">
                         <p class="numero" id="num1">
-
+                            0
                         </p>
+                        <p class="numero" id="op"></p>
                         <p class="numero" id="num2">
-                            80
+                            0
                         </p>
                     </div><br>
 
                 </div>
                 <div class="resultado">
                     <!-- 26 DIGITOS -->
-                    <p id="resultado">1234512345123451234512345</p>
+                    <p id="resultado">0</p>
 
                 </div>
 
             </div>
             <div class="teclado">
-                <div class="key">2nd</div>
-                <div class="key">Pi</div>
-                <div class="key">e</div>
-                <div class="key">CE</div>
-                <div class="key maior">
+                <div class="key" onclick="calcular(this)">2nd</div>
+                <div class="key" onclick="calcular(this)">Pi</div>
+                <div class="key" onclick="calcular(this)">e</div>
+                <div class="key" onclick="calcular(this)">CE</div>
+                <div class="key maior" onclick="apagar()">
                     <strong>
 
                         &larr;
                     </strong>
                 </div>
                 <br>
-                <div class="key">x²</div>
-                <div class="key">¹/x</div>
-                <div class="key">|x|</div>
-                <div class="key">exp</div>
-                <div class="key">mod</div>
+                <div class="key" onclick="calcular(this)">x²</div>
+                <div class="key" onclick="calcular(this)">¹/x</div>
+                <div class="key" onclick="calcular(this)">|x|</div>
+                <div class="key" onclick="calcular(this)">exp</div>
+                <div class="key" onclick="calcular(this)">mod</div>
                 <br>
-                <div class="key" onclick="">²&radic;x</div>
-                <div class="key">(</div>
-                <div class="key">)</div>
-                <div class="key">n!</div>
-                <div class="key"> &divide;</div>
+                <div class="key" onclick="calcular(this)">²&radic;x</div>
+                <div class="key" onclick="calcular(this)">(</div>
+                <div class="key" onclick="calcular(this)">)</div>
+                <div class="key" onclick="calcular(this)">n!</div>
+                <div class="key" onclick="calcular(this)">&divide;</div>
                 <br>
-                <div class="key">x <sup>y</sup></div>
-                <div class="key principal" onclick="digitar(7)">7</div>
-                <div class="key principal">8</div>
-                <div class="key principal">9</div>
-                <div class="key">X</div>
+                <div class="key" onclick="calcular(this)">x <sup>y</sup></div>
+                <div class="key principal" onclick="digitar(this)">7</div>
+                <div class="key principal" onclick="digitar(this)">8</div>
+                <div class="key principal" onclick="digitar(this)">9</div>
+                <div class="key" onclick="calcular(this)">X</div>
                 <br>
-                <div class="key">10 <sup>x</sup></div>
-                <div class="key principal">4</div>
-                <div class="key principal">5</div>
-                <div class="key principal">6</div>
-                <div class="key">-</div>
+                <div class="key" onclick="calcular(this)">10 <sup>x</sup></div>
+                <div class="key principal" onclick="digitar(this)">4</div>
+                <div class="key principal" onclick="digitar(this)">5</div>
+                <div class="key principal" onclick="digitar(this)">6</div>
+                <div class="key" onclick="calcular(this)">-</div>
                 <br>
-                <div class="key ">log</div>
-                <div class="key principal">1</div>
-                <div class="key principal">2</div>
-                <div class="key principal">3</div>
-                <div class="key">+</div>
+                <div class="key" onclick="calcular(this)">log</div>
+                <div class="key principal" onclick="digitar(this)">1</div>
+                <div class="key principal" onclick="digitar(this)">2</div>
+                <div class="key principal" onclick="digitar(this)">3</div>
+                <div class="key" onclick="calcular(this)">+</div>
                 <br>
-                <div class="key">In</div>
-                <div class="key principal">
+                <div class="key" onclick="calcular(this)">In</div>
+                <div class="key principal" onclick="calcular(this)">
                     <sup>+</sup> /
                     <sub>-</sub>
                 </div>
-                <div class="key principal">0</div>
+                <div class="key principal" onclick="digitar(this)">0</div>
                 <div class="key principal">,</div>
-                <div class="key equal">
+                <div class="key equal" onclick="realizarCalculo()">
                     =
 
                 </div>
